@@ -39,7 +39,7 @@ if (file_exists($filename)) {
         $phone = trim($phone);
 	list($firstName, $lastName) = nama();
         $url = 'https://lead.hellohealthgroup.com/api/campaign/kosioj0q0muqedv/lead';
-
+        echo $phone."\n";
         $data = [
             "url" => "https://hellosehat.com/festival-soya-2024/?fbclid=IwZXh0bgNhZW0CMTEAAR0LpJO1TNNHQ1ENuXdJpS3mySVVO1LtmVUxGUjew5e2ne4NxXTZ_bdCjSI_aem_puZPJwfjnXcO0F7qekPVTA#ambil-voucher-special",
             "title_article" => "Soya Generasi Maju • Hello Sehat",
